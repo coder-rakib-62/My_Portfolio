@@ -1,0 +1,56 @@
+/* fonts link */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+/* common css part start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-boxg;
+}
+ul , ol{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p,ul,ol{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+:root {
+  --main-color: #61dafb;
+  --font-one: "DM Sans", sans-serif;
+  --font-two: "Roboto", sans-serif;
+}
+/* common css part end */
+/*---------- navbar part start ----------*/
+.main_menu {
+  background: #161b2a;
+}
+.navbar_img {
+  font-weight: 800;
+  color: var(--main-color) !important;
+}
+.main_menu ul li a {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--font-one);
+  color: #fff;
+}
+.main_menu ul li a:hover {
+  color: var(--main-color);
+}
+.main_menu ul li a.active {
+  color: var(--main-color) !important;
+}
+.navbar-menu{
+    gap: 20px;
+}
+/*---------- navbar part end ----------*/
