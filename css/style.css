@@ -54,3 +54,79 @@ img{
     gap: 20px;
 }
 /*---------- navbar part end ----------*/
+/* background: linear-gradient(-45deg, #61dafb, #61dafb, #0f172a, #0f172a); */
+/*------- banner part start  --------*/
+#banner{
+background: linear-gradient(135deg, #0b0f1a, #111827, #1f2937);
+  padding: 150px 0 120px;
+}
+.badge_react{
+    background: rgba(149, 191, 71, 0.1);
+    color: var(--main-color);
+    padding: 8px 16px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    border: 1px solid rgba(149, 191, 71, 0.2);
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.hero_title{
+  font-size: 4rem;
+    font-weight: 700;
+    font-family: var();
+    line-height: 1.1;
+    margin-bottom: 25px;
+    color: #FFF;
+}
+.text_gradiant{
+background: linear-gradient(90deg, #61dafb, #0fefb7); 
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.banner_text p{
+  font-weight: 400;
+  font-family: var(--font-two);
+  color: #94a3b8;
+  margin-bottom: 20px;
+}
+.btn_primary_custom{
+  background-color: var(--main-color);
+    border: none;
+    padding: 12px 30px !important; 
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--font-one);
+    color: #000;
+    transition: 0.3s;
+}
+.btn_primary_custom:hover{
+      background-color: #10b7e1;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(149, 191, 71, 0.2);
+    color: #FFF;
+}
+.btn{
+  border: 1px solid white;
+  padding: 12px 30px !important;
+   font-size: 16px;
+    font-weight: 600;
+    font-family: var(--font-one);
+    border-radius: 8px;
+    color: #fff;
+     transition: 0.3s;
+}
+.btn:hover{
+  background: #fff;
+}
+.hero_image_container{
+  display: flex;
+  justify-content: center;
+}
+.hero_image_container img{
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  border: 2px solid #61dafb;
+}
+/*--------- banner part end  ---------*/
