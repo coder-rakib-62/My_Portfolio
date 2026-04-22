@@ -127,6 +127,33 @@ background: linear-gradient(90deg, #61dafb, #0fefb7);
   width: 400px;
   height: 400px;
   border-radius: 50%;
-  border: 2px solid #61dafb;
+  border: 2px solid var(--main-color);
 }
 /*--------- banner part end  ---------*/
+
+/*-------- counter part start --------*/
+#counter_section{
+  padding: 70px 0;
+    background:rgb(18, 18, 33);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+.single_counter{
+  text-align: center;
+  padding: 20px;
+}
+.counter{
+  font-size: 3rem;
+  font-weight: 800;
+  font-family: var(--font-two);
+  display: block;
+  color: var(--main-color);
+}
+.counter_text{
+    color: #94a3b8;
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-family: var(--font-one);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+/*-------- counter part end ---------*/
