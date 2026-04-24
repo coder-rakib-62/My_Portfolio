@@ -2,27 +2,36 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 /* common css part start */
-*{
-    margin: 0;
-    padding: 0;
-    outline: 0;
-    box-sizing: border-boxg;
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-boxg;
 }
-ul , ol{
-    list-style: none;
+ul,
+ol {
+  list-style: none;
 }
-h1,h2,h3,h4,h5,h6,p,ul,ol{
-    margin: 0;
-    padding: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
 }
-a{
-    text-decoration: none;
-    display: inline-block;
+a {
+  text-decoration: none;
+  display: inline-block;
 }
-img{
-    width: 100%;
-    max-width: 100%;
-    vertical-align: middle;
+img {
+  width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
 }
 :root {
   --main-color: #61dafb;
@@ -50,80 +59,80 @@ img{
 .main_menu ul li a.active {
   color: var(--main-color) !important;
 }
-.navbar-menu{
-    gap: 20px;
+.navbar-menu {
+  gap: 20px;
 }
 /*---------- navbar part end ----------*/
 /* background: linear-gradient(-45deg, #61dafb, #61dafb, #0f172a, #0f172a); */
 /*------- banner part start  --------*/
-#banner{
-background: linear-gradient(135deg, #0b0f1a, #111827, #1f2937);
+#banner {
+  background: linear-gradient(135deg, #0b0f1a, #111827, #1f2937);
   padding: 150px 0 120px;
 }
-.badge_react{
-    background: rgba(149, 191, 71, 0.1);
-    color: var(--main-color);
-    padding: 8px 16px;
-    border-radius: 50px;
-    font-size: 0.9rem;
-    border: 1px solid rgba(149, 191, 71, 0.2);
-    margin-bottom: 20px;
-    display: inline-block;
+.badge_react {
+  background: rgba(149, 191, 71, 0.1);
+  color: var(--main-color);
+  padding: 8px 16px;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  border: 1px solid rgba(149, 191, 71, 0.2);
+  margin-bottom: 20px;
+  display: inline-block;
 }
-.hero_title{
+.hero_title {
   font-size: 4rem;
-    font-weight: 700;
-    font-family: var();
-    line-height: 1.1;
-    margin-bottom: 25px;
-    color: #FFF;
+  font-weight: 700;
+  font-family: var();
+  line-height: 1.1;
+  margin-bottom: 25px;
+  color: #fff;
 }
-.text_gradiant{
-background: linear-gradient(90deg, #61dafb, #0fefb7); 
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+.text_gradiant {
+  background: linear-gradient(90deg, #61dafb, #0fefb7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.banner_text p{
+.banner_text p {
   font-weight: 400;
   font-family: var(--font-two);
   color: #94a3b8;
   margin-bottom: 20px;
 }
-.btn_primary_custom{
+.btn_primary_custom {
   background-color: var(--main-color);
-    border: none;
-    padding: 12px 30px !important; 
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: 600;
-    font-family: var(--font-one);
-    color: #000;
-    transition: 0.3s;
+  border: none;
+  padding: 12px 30px !important;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: var(--font-one);
+  color: #000;
+  transition: 0.3s;
 }
-.btn_primary_custom:hover{
-      background-color: #10b7e1;
-    transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(149, 191, 71, 0.2);
-    color: #FFF;
+.btn_primary_custom:hover {
+  background-color: #10b7e1;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(149, 191, 71, 0.2);
+  color: #fff;
 }
-.btn{
+.btn {
   border: 1px solid white;
   padding: 12px 30px !important;
-   font-size: 16px;
-    font-weight: 600;
-    font-family: var(--font-one);
-    border-radius: 8px;
-    color: #fff;
-     transition: 0.3s;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: var(--font-one);
+  border-radius: 8px;
+  color: #fff;
+  transition: 0.3s;
 }
-.btn:hover{
+.btn:hover {
   background: #fff;
 }
-.hero_image_container{
+.hero_image_container {
   display: flex;
   justify-content: center;
 }
-.hero_image_container img{
+.hero_image_container img {
   width: 400px;
   height: 400px;
   border-radius: 50%;
@@ -132,44 +141,44 @@ background: linear-gradient(90deg, #61dafb, #0fefb7);
 /*--------- banner part end  ---------*/
 
 /*-------- counter part start --------*/
-#counter_section{
+#counter_section {
   padding: 70px 0;
-    background:rgb(18, 18, 33);
-    border: 1px solid rgba(255, 255, 255, 0.05);
+  background: rgb(18, 18, 33);
+  border: 1px solid rgba(255, 255, 255, 0.05);
 }
-.single_counter{
+.single_counter {
   text-align: center;
   padding: 20px;
 }
-.counter{
+.counter {
   font-size: 3rem;
   font-weight: 800;
   font-family: var(--font-two);
   display: block;
   color: var(--main-color);
 }
-.counter_text{
-    color: #94a3b8;
-    font-size: 1.3rem;
-    font-weight: 400;
-    font-family: var(--font-one);
-    text-transform: uppercase;
-    letter-spacing: 1px;
+.counter_text {
+  color: #94a3b8;
+  font-size: 1.3rem;
+  font-weight: 400;
+  font-family: var(--font-one);
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 /*-------- counter part end ---------*/
 /*--------- resume part start  ----------*/
-#resume{
-      padding: 100px 0;
-      background-color: #000;
+#resume {
+  padding: 100px 0;
+  background-color: #000;
 }
-.header h2{
+.header h2 {
   font-size: 40px;
   font-weight: 800;
   font-family: var(--font-two);
   color: var(--main-color);
   text-align: center;
 }
-.header p{
+.header p {
   font-size: 1.1rem;
   font-weight: 400;
   font-family: var(--font-one);
@@ -178,35 +187,35 @@ background: linear-gradient(90deg, #61dafb, #0fefb7);
   color: #94a3b8;
   margin-bottom: 4rem;
 }
-i{
+i {
   color: var(--main-color);
 }
- h4{
+h4 {
   font-size: 2rem;
   font-weight: 500;
   font-family: var(--font-one);
-  color: #fff; 
+  color: #fff;
 }
-.timeline_date{
+.timeline_date {
   font-size: 1rem;
-    color: var(--main-color);
-    font-weight: 500;
-    font-family: var(--font-one);
-    margin-top: 30px;
-    display: block;
+  color: var(--main-color);
+  font-weight: 500;
+  font-family: var(--font-one);
+  margin-top: 30px;
+  display: block;
 }
-.timeline_title{
-    font-size: 1.50rem;
-    font-weight: 700;
-    font-family: var(--font-one);
-    margin-top: 10px;
-    color: #fff;
+.timeline_title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: var(--font-one);
+  margin-top: 10px;
+  color: #fff;
 }
-.timeline_org{
+.timeline_org {
   color: #94a3b8;
-    font-style: italic;
-    font-family: var(--font-one);
-    margin-top: 10px;
-    display: block;
+  font-style: italic;
+  font-family: var(--font-one);
+  margin-top: 10px;
+  display: block;
 }
-/*--------- resume part end  -----------*/
+/*--------- resume part ends  -----------*/
