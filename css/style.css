@@ -168,6 +168,7 @@ img {
 /*-------- counter part end ---------*/
 /*--------- resume part start  ----------*/
 #resume {
+  background: rgb(12, 12, 20) !important;
   padding: 100px 0;
   background-color: #000;
 }
@@ -219,3 +220,61 @@ h4 {
   display: block;
 }
 /*--------- resume part ends  -----------*/
+/*------- Service part start -------*/
+#service{
+  background: rgb(18, 18, 33);
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+h2{
+  font-size: 2.40rem;
+  font-weight:700;
+  color: #fff;
+}
+.service_div{
+  background: var(--main-color);
+  width: 50px;
+  height: 4px;
+  margin-top:10px ;
+}
+.glass_card{
+    background: var(--card-bg);
+    border: 1px solid var(--main-color);  
+    border-radius: 16px;
+    padding-top: 20px;
+    transition: 0.3s;
+    height: 100%;
+    margin-top: 40px;
+} 
+.glass_card:hover{
+   transform: scale(1.1);
+}
+.icon_box{
+width: 40px;
+height: 40px;
+background:#345c67;
+color: var(--main-color);
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 12px;
+font-size: 1.5rem;
+margin-bottom: 20px;
+margin-left: 20px;
+}
+.service_heading{
+  font-size: 1.50rem;
+  font-weight: 500;
+  font-family: var(--font-one);
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.service_paragraph{
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: var(--font-two);
+  color: #94a3b8;
+   margin-left: 20px;
+}
+/*------ Service part end ----------*/
