@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   outline: 0;
-  box-sizing: border-boxg;
+  box-sizing: border-box;
 }
 ul,
 ol {
@@ -221,60 +221,90 @@ h4 {
 }
 /*--------- resume part ends  -----------*/
 /*------- Service part start -------*/
-#service{
+#service {
   background: rgb(18, 18, 33);
   padding-top: 3rem !important;
   padding-bottom: 3rem !important;
 }
-h2{
-  font-size: 2.40rem;
-  font-weight:700;
+h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
   color: #fff;
 }
-.service_div{
+.service_div {
   background: var(--main-color);
   width: 50px;
   height: 4px;
-  margin-top:10px ;
+  margin-top: 10px;
 }
-.glass_card{
-    background: var(--card-bg);
-    border: 1px solid var(--main-color);  
-    border-radius: 16px;
-    padding-top: 20px;
-    transition: 0.3s;
-    height: 100%;
-    margin-top: 40px;
-} 
-.glass_card:hover{
-   transform: scale(1.1);
+.glass-card-box {
+  margin-top: 50px;
 }
-.icon_box{
-width: 40px;
-height: 40px;
-background:#345c67;
-color: var(--main-color);
-display: flex;
-align-items: center;
-justify-content: center;
-border-radius: 12px;
-font-size: 1.5rem;
-margin-bottom: 20px;
-margin-left: 20px;
+.glass_card {
+  background: var(--card-bg);
+  border: 1px solid #fff;
+  border-radius: 16px;
+  transition: 0.3s;
+  height: 100%;
+  padding: 20px;
 }
-.service_heading{
-  font-size: 1.50rem;
+.glass_card:hover {
+  border-color: var(--main-color);
+  transform: translateY(-5px);
+}
+.icon_box {
+  width: 40px;
+  height: 40px;
+  background: ##;
+  color: var(--main-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  font-size: 1.5rem;
+}
+.service_heading {
+  font-size: 1.5rem;
   font-weight: 500;
+  padding: 15px 0;
   font-family: var(--font-one);
-  margin-bottom: 20px;
-  margin-left: 20px;
 }
-.service_paragraph{
+.service_paragraph {
   width: 100%;
   font-size: 1rem;
   font-weight: 400;
   font-family: var(--font-two);
   color: #94a3b8;
-   margin-left: 20px;
 }
 /*------ Service part end ----------*/
+/*------- skill Section part start -----*/
+.skill_h2{
+  font-weight: 700;
+  color: #fff;
+}
+.right p{
+  color: #94a3b8;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: var(--font-one);
+}
+.skill_item {
+    margin-bottom: 25px ; 
+}
+.skill_info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    color: #FFF;
+}
+.progress {
+    height: 8px;
+    background-color: #2a303c;
+    border-radius: 10px;
+}
+.progress_bar{
+  background: var(--main-color);
+  border-radius: 10px;
+}
+
+/*------- skill Section part end --------*/
