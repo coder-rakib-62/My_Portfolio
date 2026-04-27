@@ -255,7 +255,7 @@ h2 {
 .icon_box {
   width: 40px;
   height: 40px;
-  background: ##;
+  background: #265461;
   color: var(--main-color);
   display: flex;
   align-items: center;
@@ -278,33 +278,80 @@ h2 {
 }
 /*------ Service part end ----------*/
 /*------- skill Section part start -----*/
-.skill_h2{
+.skill_h2 {
   font-weight: 700;
   color: #fff;
 }
-.right p{
+.right p {
   color: #94a3b8;
   font-size: 1rem;
   font-weight: 400;
   font-family: var(--font-one);
 }
 .skill_item {
-    margin-bottom: 25px ; 
+  margin-bottom: 25px;
 }
 .skill_info {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 8px;
-    color: #FFF;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  color: #fff;
 }
 .progress {
-    height: 8px;
-    background-color: #2a303c;
-    border-radius: 10px;
+  height: 8px;
+  background-color: #2a303c;
+  border-radius: 10px;
 }
-.progress_bar{
+.progress_bar {
   background: var(--main-color);
   border-radius: 10px;
 }
-
 /*------- skill Section part end --------*/
+/*------- Testimonial part start --------*/
+.testimonial_h2 {
+  font-weight: 700 !important;
+  color: #fff !important;
+}
+.testimonials_section .header p {
+  color: #94a3b8;
+  font-family: var(--font-two);
+}
+ .testimonial_slide {
+  max-width: 700px;
+  margin: 0 auto;
+ }
+.testimonial_card {
+    background: #161b2a;
+    border-radius: 20px;
+    padding: 40px;
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+.qoute_icon {
+    position: absolute !important;
+    top: 30px !important;
+    right: 40px;
+    font-size: 3rem;
+    color: rgba(149, 191, 71, 0.1);
+}
+.testimonial_img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 2px solid var(--main-color);
+}
+
+.testimonial_card p {
+  color: #fff;
+}
+.testimonial_card h5 {
+  color: #fff;
+}
+.testimonial_card span {
+  color: #94a3b8 !important;
+}
+/*-------- Testimonial part end --------*/
+
+
