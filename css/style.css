@@ -313,6 +313,18 @@ h2 {
   border-radius: 10px;
 }
 /*------- skill Section part end --------*/
+/*------- project part start  -------*/
+.portfolio-section .project-tab .tab-buttons {
+    position: relative;
+    display: inline-flex;
+    padding: 6px;
+    border: 1px solid var(--text-light);
+    border-radius: 30px;
+}
+.portfolio-section .project-tab ul {
+    margin-bottom: 30px;
+}
+/*------- project part end ---------*/
 /*------- Testimonial part start --------*/
 .testimonial_h2 {
   font-weight: 700 !important;
